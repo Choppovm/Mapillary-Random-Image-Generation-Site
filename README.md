@@ -85,3 +85,12 @@ When it's ready, go to the URL it provides. This url should be http://127.0.0.1:
 
 When on the site, draw the bounding box, submit it, THEN generate the mapillary image. The image will be displayed below.
 </details>
+
+## Conclusion
+This was made for my A-Level Computer Science NEA project, WorldWanderer.
+
+It was intended to be a one-time, debug tool to fix the issue of the 0.01 square degree area limit that Mapillary decided to add.
+
+(mapillary please announce api changes like this... it's been months of debugging...)
+
+**Do not expect this repository to be updated that much**; it'll likely be archived in the future. 
