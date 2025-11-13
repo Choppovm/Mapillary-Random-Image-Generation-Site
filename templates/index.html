@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Random Mapillary Image Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}"/>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/leaflet.css') }}"/>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/leaflet.draw.css') }}"/>
+    <script src="{{ url_for('static', filename='js/leaflet.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/leaflet.draw.js') }}"></script>
+</head>
+<body>
+    <h1>Draw a bounding box on the map.</h1>
+    <h2>Note: Keep the overall area of the bbox below 0.01 square degrees.</h2>
+    <div id="map"></div>
+    <div id="controls">
+        <button id="next-btn" onclick="loadRandom()">Next Random</button>
+    </div>
+    <div id="status"></div>
+    <img id="static-img" alt="Mapillary image"/>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

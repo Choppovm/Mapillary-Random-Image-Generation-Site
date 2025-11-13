@@ -1,0 +1,7 @@
+#map { height: 400px; }
+#static-img { width: 100%; height: auto; margin-top: 10px; }
+#controls { margin: 10px 0; display: flex; gap: 8px; align-items: center; }
+#next-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+#status { font-size: 0.9rem; color: #666; background: #eee; padding: 4px; }
+.error { color: #b00020; }
+.ok { color: #0a7; }
