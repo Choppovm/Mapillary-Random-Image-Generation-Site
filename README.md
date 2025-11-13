@@ -8,7 +8,9 @@ This repo contains two main features:
 
 Both scripts (and various other files relating to the scripts) need setting up in order to work. Details for each part are given below.
 
-## Command-Line Image Generator | Using random_image.py
+<details>
+<summary><h2>Command-Line Image Generator | Using random_image.py</h2></summary>
+
 ### Setting Up
 You'll need to set up two things before using the command-line image generator:
 
@@ -45,7 +47,11 @@ random_image.py has a few extra modifications that can be made to it. These are 
 Once you've completed the setup, that's all you really need to do. You can just run the script, and it should print the image ID and coordinates of the image.
 
 Always keep the API's rate limit in mind when using. 
+</details>
 
-## Python Flask Web Server | Using app.py
+<details>
+<summary><h2>Python Flask Web Server | Using app.py</h2></summary>
+
 ### TO BE DONE
 Resources will be uploaded later.
+</details>
