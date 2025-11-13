@@ -52,13 +52,6 @@ Always keep the API's rate limit in mind when using.
 <details>
 <summary><h2>Python Flask Web Server | Using app.py</h2></summary>
 
-### TO BE DONE
-Resources will be uploaded later.
-</details>
-
-<details>
-<summary><h2>Python Flask Web Server | Using app.py</h2></summary>
-
 ### Setting Up
 You'll need to set up your **Mapillary access token** before using the flask web app:
 
